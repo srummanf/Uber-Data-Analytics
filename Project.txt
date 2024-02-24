@@ -18,3 +18,5 @@ Data Dictionary tells us about the data and what each column represents
 https://www.nyc.gov/assets/tlc/downloads/pdf/data_dictionary_trip_records_yellow.pdf
 
 
+# Data Modelling Table
+first step is to create the data models i.e. fact table and dimension table
