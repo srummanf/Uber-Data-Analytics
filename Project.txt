@@ -1,0 +1,20 @@
+Fact & Dimension Table
+Fact Table:
+Contains quantitative measures or metrics that are used for analysis
+Typically contains foreign keys that link to dimension tables
+Contains columns that have high cardinality and change frequently
+Contains columns that are not useful for analysis by themselves, but are necessary for calculating metrics
+
+
+Dimension Table:
+Contains columns that describe attributes of the data being analyzed
+Typically contains primary keys that link to fact tables
+Contains columns that have Iow cardinality and don't change frequently
+Contains columns that can be used for grouping or filtering data for analysis
+
+https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page
+
+Data Dictionary tells us about the data and what each column represents
+https://www.nyc.gov/assets/tlc/downloads/pdf/data_dictionary_trip_records_yellow.pdf
+
+
